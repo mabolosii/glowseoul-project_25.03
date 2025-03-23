@@ -8,8 +8,16 @@ html > body {
   font-family: "GmarketSansMedium";
 }
 
-div {
-  width: 200px;
-  height: 200px;
-  background-color: red;
+.top-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border: 2px solid red;
+}
+.top-bar__inner {
+  padding-top: 40px;
+  padding-inline: 3.5%;
+  width: 100%;
+  border: 2px solid blue;
 }

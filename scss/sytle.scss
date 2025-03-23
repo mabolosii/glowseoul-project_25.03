@@ -11,9 +11,23 @@
 html > body {
   font-family: "GmarketSansMedium";
 }
+//탑바 구현 시작
+.top-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border: 2px solid red;
 
-div {
-  width: 200px;
-  height: 200px;
-  background-color: red;
+  .logo img {
+  }
 }
+.top-bar__inner {
+  padding-top: 40px;
+  padding-inline: 3.5%;
+  //padding-inline은 padding-left, right : 3.5%씩 준거랑 같은것이다.
+  width: 100%;
+  border: 2px solid blue;
+}
+
+//탑바 구현 끝끝
